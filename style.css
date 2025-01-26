@@ -1,0 +1,22 @@
+* {
+    background-color: lightcyan;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.title {
+    color: white;
+    background-color: blue;
+    font-size: 64px;
+    text-align: center;
+}
+.sub1 {
+    color: black;
+    background-color: lightgray;
+    font-size: 28px;
+}
+
+.list  {
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 32px;
+}
