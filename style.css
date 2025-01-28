@@ -1,22 +1,55 @@
 * {
-    background-color: lightcyan;
+    background-color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 900px;
 }
 .title {
     color: white;
-    background-color: blue;
+    background-color: lightblue;
     font-size: 64px;
     text-align: center;
+    border-radius: 60px; 
 }
 .sub1 {
     color: black;
     background-color: lightgray;
     font-size: 28px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 10px; 
+    margin-bottom: 50px;
 }
 
 .list  {
-    list-style-type: none;
+    list-style: none;
     overflow: hidden;
     font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.r1, .r2, .r3 {
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    height: 45px;
+    width: 294px;
+    display: inline-block;
+    line-height: 40px;
+    border: 2px solid black;
+    border-radius: 5px; 
+} 
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
 }
